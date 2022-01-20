@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(222, 255, 252);
+}
+
+h1 {
+    font-size: 3rem;
+    color: rgb(219, 175, 193);
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem;
+    color: rgb(134, 98, 110);
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.in-player {
+    padding: 2rem;
+}
+
+h3, .text {
+    color: rgb(134, 98, 110);
+}
